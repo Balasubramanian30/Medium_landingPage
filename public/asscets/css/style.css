@@ -1,0 +1,368 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header{
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid black;
+  position: fixed;
+  transition: background-color 0.6s ease-in-out;
+}
+
+.top {
+    background-color: #ffc017;
+}
+
+.scrolled{
+  background-color: white;
+}
+
+.part-1 {
+    float: left;
+    width: 52.33%;
+    padding-left: 5em;
+}
+
+.part-2 {
+    float: left;
+    width: 30%;
+    padding-top: 0.5em;
+}
+
+.part-3 {
+    float: left;
+    width: 11.33%;
+}
+
+.list li {
+    display: inline;
+    margin: 1em;
+    cursor: pointer;
+}
+
+#span {
+    position: relative;
+    bottom: 0.3em;
+    font-family: inherit;
+    font-size: 2.2em;
+    font-weight: bold;
+    left: 0.2em;
+}
+
+#btn {
+    padding: 7px 16px 9px;
+    color: rgb(255, 255, 255);
+    border-radius: 99em;
+    background-color: black;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid black;
+    position: relative;
+    top: 1em;
+    transition: background-color 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.hero {
+    float: left;
+    width: 100%;
+    background-color: #ffc017;
+    border-bottom: 1px solid;
+}
+
+.hero1 {
+    float: left;
+    width: 50%;
+    padding: 91px 0px 92px 4.7em;
+}
+
+.hero2 {
+    float: right;
+    width: 50%;
+}
+
+#h1 {
+    line-height: 95px;
+    font-size: 106px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+#para {
+    font-size: 24px;
+    line-height: 24px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    width: 65%;
+    margin-bottom: 2.5em;
+}
+
+#button {
+    border-radius: 99em;
+    color: white;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: black;
+    border: 1px;
+    padding: 7px 20px 9px;
+    width: 213px;
+    cursor: pointer;
+}
+
+.section1 {
+    float: left;
+    width: 100%;
+    padding: 40px 0px 16px 0px;
+}
+
+.sec1-p1 {
+    float: left;
+    width: 33.33%;
+    padding-left: 5em;
+}
+
+.sec1-p2 {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    top: 4.8em;
+    right: 4em;
+}
+
+.sec1-p3 {
+    float: right;
+    width: 33.33%;
+    position: relative;
+    bottom: 9.6em;
+}
+
+#tread {
+    position: relative;
+    bottom: 2.5em;
+    left: 2.4em;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.child1 {
+    float: left;
+    width: 8%;
+}
+
+.child2 {
+    float: right;
+    width: 86%;
+}
+
+#first {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(230, 230, 230);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0.4em;
+}
+
+.images {
+    border-radius: 50%;
+}
+
+#para1 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    position: relative;
+    bottom: 0.25em;
+    left: 0.5em;
+}
+
+#h4 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 20px;
+}
+
+#para2 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    line-height: 3em;
+}
+
+.parent {
+    float: left;
+    width: 100%;
+    position: relative;
+    bottom: 2.4em;
+}
+
+.modal {
+    z-index: 1;
+    position:absolute; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 150%;  
+    background-color: rgba(255,255,255,0.9); 
+  }
+  
+
+  .modal-content {
+    background-color: #fff;
+    padding: 44px 56px;
+    /* margin-top: 25vh; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    border: 1px solid white;
+    width: 42%;
+    height:548px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 25%;
+  }
+  
+  .modal.visible {
+    display: block;
+  }
+  
+  .modal.visible .modal-content {
+    opacity: 1;
+    transform: translateY(0%);
+    height:100%;
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .Welcome {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #fefefe !important;
+    color:black;
+  }
+  #welcome {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 2em;
+  }
+  .buttt {
+    width: 212px;
+    padding: 6px 12px 8px 16px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 99em;
+    line-height: 20px;
+    margin: 0.5em;
+    cursor:pointer;
+  }
+  .buttt:hover{
+    border:1px solid black;
+  }
+  #acc {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding: 1em;
+  }
+  #createOne {
+    color: green;
+    cursor: pointer;
+    font-size: inherit;
+  }
+  @media(max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+    .part-2{
+        visibility: hidden;
+    }
+    .part-1 {
+        float: left;
+        width: 52.33%;
+        padding-left: 0em;
+      }
+      #span {
+        position: relative;
+        bottom: 1.3em;
+        font-family: inherit;
+        font-size: 2.2em;
+        font-weight: bold;
+        left: 1.7em;
+      }
+      #btn {
+        padding: 7px 16px 9px;
+        color: rgb(255, 255, 255);
+        border-radius: 99em;
+        background-color: black;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        border: 1px solid black;
+        position: relative;
+        top: 1.5em;
+        transition: background-color 0.6s ease-in-out;
+        cursor: pointer;
+        right: 4em;
+      }
+      .header {
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid black;
+        background-color: #ffc017;
+        position: fixed;
+        transition: background-color 0.6s ease-in-out;
+        height: 5em;
+      }
+      .hero1 {
+        float: left;
+        width: 100%;
+        padding: 93px 0 92px 2em;
+      }
+      #h1 {
+        line-height: 71px;
+        font-size: 63px;
+        font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-weight: 400;
+        margin-bottom: 0.5em;
+      }
+      #para {
+        font-size: 24px;
+        line-height: 24px;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        width: 84%;
+        margin-bottom: 2.5em;
+      }
+      .sec1-p1,.sec1-p2,.sec1-p3 {
+        float: left;
+        width: 100%;
+        padding-left: 1.5em;
+        position: inherit;
+      }
+
+  }
